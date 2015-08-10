@@ -1,0 +1,60 @@
+﻿@font-face {  
+    font-family : VmapPublic;  
+    src : url('./VMapPublic.ttf'); 
+} 
+body { font-size: 12px; background-color: #f0f0f0; color: #666; font-family: "Microsoft Yahei","Tahoma","SimSun"; }
+
+/*layout*/
+.container { max-width: 1000px; }
+
+/*header*/
+.header { background-color: #c61432; }
+.topbar { margin-top: 5px; }
+    .topbar a { color: #fff; }
+.menu { background-color: #e53351; padding: 5px; }
+    .menu ul { margin: 0; }
+    .menu a { color: #fff; }
+    .menu .form-search { margin: 5px 15px 0 0; }
+
+/*main*/
+.main { padding: 15px; background-color: #fff; }
+.main-list li { margin: 0; padding: 0; display: inline-block; width: 33%; }
+    .main-list li .thumbnail { margin: 5px 5px; display:table-cell;vertical-align:middle;text-align:center; }
+.main-list h3 { margin: 0; }
+.main-list span { display: inline-block; padding: 0 5px; }
+/*aside*/
+.ad-list li { margin: 0; padding: 0; display: inline-block; width: 50%; }
+    .ad-list li .box { margin: 3px; }
+
+/*footer*/
+.footer { margin-top: 15px; }
+
+/*news*/
+.news li { line-height: 35px; border-bottom: 1px solid #ddd; }
+    .news li a { color: #666; }
+        .news li a:hover { color: #c61432; }
+
+/*article*/
+.article p { margin: 0 0 20px 0; font-size: 14px; }
+
+#myCarousel{
+margin:70px auto 100px;   
+   
+}
+/*comment*/
+.input-user {
+  width: 250px;
+}
+.main{
+min-height:400px;
+height:100%;
+_height:400px;
+}
+
+.custom-table-hover tbody tr:hover > td,
+.custom-table-hover tbody tr:hover > th {
+  background-color: #ffff99;
+}
+
+/*picture*/
+
